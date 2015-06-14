@@ -21,10 +21,10 @@ a real person and enable you to send outbound SMS.
 
 * create a "New Script" and create a script that looks like 
 
-  message("House temperature is " + temp + " C" , {
-    to: "+14085551212", 
-    network:"SMS", 
-    callerID:"+14035551212"});
+    message("House temperature is " + temp + " C" , {
+      to: "+14085551212", 
+      network:"SMS", 
+      callerID:"+14035551212"});
 
 * don't worry about the phone numbers in it for now
 
@@ -42,18 +42,18 @@ in the following screen shot. This is a secret and if others know it, they can u
 
 From the Tropo page for you App, go and "Edit script" for your TextScript. It should look like 
 
-   message("House temperature is " + temp + " C" , {
-     to: "+14085551212", 
-     network:"SMS", 
-     callerID:"+14035551212"});
-
+    message("House temperature is " + temp + " C" , {
+       to: "+14085551212", 
+       network:"SMS", 
+       callerID:"+14035551212"});
+     
 but now you need to change the phone number in the callerID to be the phone number that Tropo assigned to your App and you need to change the phone number in the "to" line to be the number of your cell phone. 
 
 ## Test it
 
 Try it by going to the following URL in a browser but replace the token part with your token 
 
-http://api.tropo.com/1.0/sessions?action=create&token=0a70119d927d9c4bbd4dc8f20bee794cfd5c387ddbd7c8798cd5dd273cad590730df8af3999bd5ce8399519a&temp=12.3"
+     http://api.tropo.com/1.0/sessions?action=create&token=0a70119d927d9c4bbd4dc8f20bee794cfd5c387ddbd7c8798cd5dd273cad590730df8af3999bd5ce8399519a&temp=12.3"
 
 or getting that URL with curl. 
 
@@ -90,7 +90,13 @@ Edit this sketch and change several things
 
 Schematic is:
 
+![schematic](https://raw.githubusercontent.com/fluffy/TempAlarmSMS/master/Images/schematic.jpg) 
+
+
 Looking top down on the breadboard so you can see which pins and which looks like:
+
+![breadboard](https://raw.githubusercontent.com/fluffy/TempAlarmSMS/master/Images/breadboard.jpg) 
+
 
 ## Run it
 
