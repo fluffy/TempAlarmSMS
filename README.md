@@ -34,19 +34,19 @@ a real person and enable you to send outbound SMS.
 
 * you should have a screen that looks along the lines of this
 
-![Screen0](https://raw.githubusercontent.com/fluffy/TempAlarmSMS/master/Images/screen0.tiff) 
+![Screen0](https://raw.githubusercontent.com/fluffy/TempAlarmSMS/master/Images/screen0.jpg) 
 
 
 * once you have created it, you should see a screen along lines of following
 
-![Screen1](https://raw.githubusercontent.com/fluffy/TempAlarmSMS/master/Images/screen1.tiff) 
+![Screen1](https://raw.githubusercontent.com/fluffy/TempAlarmSMS/master/Images/screen1.jpg) 
 
 * you need to note a few things here. The first is the the phone number that
 Tropo assigned to your applications.
 
 * Scrolling down a bit more you will see something like
 
-![Screen2](https://raw.githubusercontent.com/fluffy/TempAlarmSMS/master/Images/screen2.tiff) 
+![Screen2](https://raw.githubusercontent.com/fluffy/TempAlarmSMS/master/Images/screen2.jpg) 
 
 * The second thing to note is the API key for
   messaging. Mine looks like something like `
@@ -111,7 +111,7 @@ Edit this sketch and change several things
 
 *  Check it compiles and upload it to your Arduino
 
-![Screen3](https://raw.githubusercontent.com/fluffy/TempAlarmSMS/master/Images/screen3.tiff) 
+![Screen3](https://raw.githubusercontent.com/fluffy/TempAlarmSMS/master/Images/screen3.jpg) 
 
 ## Wire up the DS18B20 temperature sensor
 
