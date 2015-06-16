@@ -70,6 +70,8 @@ but now you need to change the phone number in the callerID to be the phone
 number that Tropo assigned to your App and you need to change the phone number
 in the "to" line to be the number of your cell phone.
 
+That's it - seriosly. That single Javascript function call is all you need to have a cloud server that sends SMS from your IoT device. I love Tropo :-) 
+
 ## Test it
 
 Try it by going to the following URL in a browser but replace the token part
