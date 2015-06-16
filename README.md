@@ -137,8 +137,10 @@ like:
 
 My setup looks like:
 
+![IoT](https://raw.githubusercontent.com/fluffy/TempAlarmSMS/master/Images/all.jpg)
+
 * I'm a big fan of PoE (Power over ethernet) so you can see this board is power
-   that way right now
+   by PoE right now
 
 
 
